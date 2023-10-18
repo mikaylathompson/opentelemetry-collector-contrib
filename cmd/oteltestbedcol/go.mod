@@ -8,6 +8,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/carbonexporter v0.86.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/jaegerexporter v0.85.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter v0.86.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter v0.86.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusexporter v0.86.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sapmexporter v0.86.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter v0.86.0
@@ -188,6 +189,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.86.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0-rc4 // indirect
+	github.com/opensearch-project/opensearch-go/v2 v2.3.0 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/openzipkin/zipkin-go v0.4.2 // indirect
 	github.com/ovh/go-ovh v1.4.1 // indirect
@@ -360,6 +362,8 @@ replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signa
 replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry => ../../pkg/resourcetotelemetry
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter => ../../exporter/opencensusexporter
+
+replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter => ../../exporter/opensearchexporter
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent => ../../internal/sharedcomponent
 
